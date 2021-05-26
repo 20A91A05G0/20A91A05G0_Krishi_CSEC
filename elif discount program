@@ -1,0 +1,35 @@
+Amount=int(input())
+if 1000<Amount<=2000:
+    discount=(Amount*10)/100
+    print("discount",discount)
+    Bill_Amount=Amount-discount
+elif 2000<Amount<=3000:
+    discount=(Amount*20)/100
+    print("discount",discount)
+    Bill_Amount=Amount-discount
+elif 3000<Amount<=5000:
+    discount=(Amount*30)/100
+    print("discount",discount)
+    Bill_Amount=Amount-discount
+elif Amount>5000:
+    discount=(Amount*40)/100
+    print("discount",discount)
+    Bill_Amount=Amount-discount
+else:
+    discount=(Amount*0)/100
+    print("discount",discount)
+    Bill_Amount=Amount-discount
+print("Bill_Amount",Bill_Amount)
+
+#Output:
+1200
+discount 120.0
+Bill_Amount 1080.0
+
+3000
+discount 600.0
+Bill_Amount 2400.0
+
+800
+discount 0.0
+Bill_Amount 800.0
