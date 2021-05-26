@@ -11,7 +11,7 @@ elif 3000<Amount<=5000:
     discount=(Amount*30)/100
     print("discount",discount)
     Bill_Amount=Amount-discount
-elif Amount>=5000:
+elif Amount>5000:
     discount=(Amount*40)/100
     print("discount",discount)
     Bill_Amount=Amount-discount
