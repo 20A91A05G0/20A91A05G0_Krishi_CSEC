@@ -1,0 +1,19 @@
+startvar=int(input())
+endvar=int(input())
+stepcount=int(input())
+while startvar<=endvar:
+    print(startvar,end=" ")
+    startvar+=stepcount
+
+#output
+2
+10
+2
+
+2 4 6 8 10
+
+3
+8
+2
+
+3 5 7
